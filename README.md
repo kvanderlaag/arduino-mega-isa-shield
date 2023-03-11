@@ -159,7 +159,7 @@ and then use the Arduino to read/write the appropriate signals to the mapped por
 Part values are all marked on the board, so there should be no confusion about what goes where. Also the only things that have different values and the same footprint are the 27pf and 0.1uF ceramic capacitor, so as long as you don't fuck that up, you should be fine. Just make sure the pin headers point _downward_.
 
 - 1x ISA card slot, EBC49DCWN-S420 - https://www.digikey.ca/en/products/detail/sullins-connector-solutions/EBC49DCWN-S420/927281
-- 1x 3.579545MHz HC-49U/S crystal - https://www.digikey.ca/en/products/detail/raltron-electronics/AS-3-579545-18/10246240
+- 1x 3.579545MHz HC-49/US crystal - https://www.digikey.ca/en/products/detail/raltron-electronics/AS-3-579545-18/10246240
 - 1x JST-VH 6-pin male header (I would recommend a right angle) - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B6PS-VH-LF-SN/926559
 - 1x Renesas 501MILFT clock generator - https://www.digikey.ca/en/products/detail/renesas-electronics-america-inc/501MILFT/1915335
 - 1x 0.1uF ceramic capcitor, through-hole, 2.50mm pitch - https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
