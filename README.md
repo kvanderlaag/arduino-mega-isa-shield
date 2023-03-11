@@ -30,18 +30,18 @@ and then use the Arduino to read/write the appropriate signals to the mapped por
 
 ## What do I need to build it?
 
-1x ISA card slot, EBC49DCWN-S420 - https://www.digikey.ca/en/products/detail/sullins-connector-solutions/EBC49DCWN-S420/927281
-1x 3.579545MHz HC-49U/S crystal - https://www.digikey.ca/en/products/detail/raltron-electronics/AS-3-579545-18/10246240
-1x JST-VH 6-pin male header (I would recommend a right angle) - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B6PS-VH-LF-SN/926559
-1x Renesas 501MILFT clock generator - https://www.digikey.ca/en/products/detail/renesas-electronics-america-inc/501MILFT/1915335
-1x 0.1uF ceramic capcitor, through-hole, 2.50mm pitch - https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
-2x 27pF ceramic capcitor, through-hole, 2.50mm pitch - https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/K270J15C0GF5TL2/286460
-3x 10uF 16V electrolytic capacitor, through-hole, radial - https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ECA-1CM100I/2688653
-1x 2.54mm pin header, 2x18 position - https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/61303621121/4846882
-1x 2.54mm pin header, 1x10 position - https://www.digikey.ca/en/products/detail/adam-tech/PH1-10-UA/9830653
-5x 2.54mm pin header, 1x8 position - https://www.digikey.ca/en/products/detail/adam-tech/PH1-08-UA/9830442
+- 1x ISA card slot, EBC49DCWN-S420 - https://www.digikey.ca/en/products/detail/sullins-connector-solutions/EBC49DCWN-S420/927281
+- 1x 3.579545MHz HC-49U/S crystal - https://www.digikey.ca/en/products/detail/raltron-electronics/AS-3-579545-18/10246240
+- 1x JST-VH 6-pin male header (I would recommend a right angle) - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/B6PS-VH-LF-SN/926559
+- 1x Renesas 501MILFT clock generator - https://www.digikey.ca/en/products/detail/renesas-electronics-america-inc/501MILFT/1915335
+- 1x 0.1uF ceramic capcitor, through-hole, 2.50mm pitch - https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538
+- 2x 27pF ceramic capcitor, through-hole, 2.50mm pitch - https://www.digikey.ca/en/products/detail/vishay-beyschlag-draloric-bc-components/K270J15C0GF5TL2/286460
+- 3x 10uF 16V electrolytic capacitor, through-hole, radial - https://www.digikey.ca/en/products/detail/panasonic-electronic-components/ECA-1CM100I/2688653
+- 1x 2.54mm pin header, 2x18 position - https://www.digikey.ca/en/products/detail/w%C3%BCrth-elektronik/61303621121/4846882
+- 1x 2.54mm pin header, 1x10 position - https://www.digikey.ca/en/products/detail/adam-tech/PH1-10-UA/9830653
+- 5x 2.54mm pin header, 1x8 position - https://www.digikey.ca/en/products/detail/adam-tech/PH1-08-UA/9830442
 
-1x PCB - Gerbers in /gerbil/arduino-mega-isa-shield.zip
+- 1x PCB - Gerbers in /gerbil/arduino-mega-isa-shield.zip
 
 Total BOM should be about $30 CAD, plus the board.
 
@@ -55,9 +55,9 @@ The shield also expects to supply the card with +5V, +12V, and -12V from the JST
 
 I would recommend the following parts, if you're building your own enclosure:
 
-Power Supply: Meanwell RPT-60B - https://www.digikey.ca/en/products/detail/mean-well-usa-inc/RPT-60B/7706127
-AC harness female connector housing - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/VHR-3N/608625
-DC harness female connector housing - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/VHR-6M/1878656 (get two)
-Contacts - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/SVH-41T-P1-1/608760 (get fifteen - three for the mains harness, twelve for the DC harness. Consider getting more if you're not good at crimping.)
-AC inlet - https://www.amazon.ca/Artrinck-Socket-Rocker-Switch-IEC320/dp/B07DMKBZ9R/ but frankly, your needs will vary depending on whether you want a snap-in or screw-in housing, and I would definitely recommend stuffing a much smaller fuse in there. (If you're drawing 10A off one ISA card, something is seriously wrong.) Either way, get something with a switch so you can kill it if you need to, and for the love of god get one that has a fuse holder if you're using this to test cards that you've designed yourself.
+- Power Supply: Meanwell RPT-60B - https://www.digikey.ca/en/products/detail/mean-well-usa-inc/RPT-60B/7706127
+- AC harness female connector housing - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/VHR-3N/608625
+- DC harness female connector housing - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/VHR-6M/1878656 (get two)
+- Contacts - https://www.digikey.ca/en/products/detail/jst-sales-america-inc/SVH-41T-P1-1/608760 (get fifteen - three for the mains harness, twelve for the DC harness. Consider getting more if you're not good at crimping.)
+- AC inlet - https://www.amazon.ca/Artrinck-Socket-Rocker-Switch-IEC320/dp/B07DMKBZ9R/ but frankly, your needs will vary depending on whether you want a snap-in or screw-in housing, and I would definitely recommend stuffing a much smaller fuse in there. (If you're drawing 10A off one ISA card, something is seriously wrong.) Either way, get something with a switch so you can kill it if you need to, and for the love of god get one that has a fuse holder if you're using this to test cards that you've designed yourself.
 
