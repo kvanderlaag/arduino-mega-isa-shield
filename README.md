@@ -18,7 +18,133 @@ The Renesas clock generator/multiplier on the board produces a 14.31818MHz clock
 
 ## What AVR ports map to which ISA signals?
 
-TODO: Supply a port mapping chart (for now, the KiCad schematic has them all listed using idiotic joined nets)
+Pins not listed in a port are reserved for system use on the Arduino, so maybe don't read from or write to them.
+
+### Port A
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PA0 | D0 |
+| PA1 | D1 |
+| PA2 | D2 |
+| PA3 | D3 |
+| PA4 | D4 |
+| PA5 | D5 |
+| PA6 | D6 |
+| PA7 | D7 |
+
+### Port B
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PB0 | A0 |
+| PB1 | A1 |
+| PB2 | A2 |
+| PB3 | A3 |
+| PB4 | A4 |
+| PB5 | A5 |
+| PB6 | A6 |
+| PB7 | A7 |
+
+### Port C
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PC0 | SD8 |
+| PC1 | SD9 |
+| PC2 | SD10 |
+| PC3 | SD11 |
+| PC4 | SD12 |
+| PC5 | SD13 |
+| PC6 | SD14 |
+| PC7 | SD15 |
+
+### Port D
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PD0 | A16 |
+| PD1 | A17 |
+| PD2 | A18 |
+| PD3 | A19 |
+| PD7 | AEN |
+
+### Port E
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PE0 | RESET |
+| PE1 | ALE |
+| PE2 | SBHE |
+| PE3 | ~MEMR |
+| PE5 | ~MEMW |
+
+### Port F
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PF0 | A8 |
+| PF1 | A9 |
+| PF2 | A10 |
+| PF3 | A11 |
+| PF4 | A12 |
+| PF5 | A13 |
+| PF6 | A14 |
+| PF7 | A15 |
+
+### Port G
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PG0 | ~IOR |
+| PG1 | ~IOW |
+| PG2 | ~SMEMR |
+| PG5 | ~SMEMW |
+
+### Port H
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PH0 | ~DACK1 |
+| PH1 | ~DACK3 |
+| PH2 | ~DACK5 |
+| PH3 | ~DACK7 |
+| PH5 | T/C |
+| PH6 | ~IO_RDY |
+
+### Port J
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PJ0 | ~NOWS |
+| PJ1 | ~IOCS16 |
+
+### Port K
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PK0 | LA17 |
+| PK1 | LA18 |
+| PK2 | LA19 |
+| PK3 | LA20 |
+| PK4 | LA21 |
+| PK5 | LA22 |
+| PK6 | LA23 |
+| PK7 | ~MASTER |
+
+### Port L
+
+| AVR Pin | ISA Signal |
+| --- | --- |
+| PL0 | DRQ1 |
+| PL1 | DRQ3 |
+| PL2 | DRQ5 |
+| PL3 | DRQ7 |
+| PL4 | IRQ2 |
+| PL5 | IRQ3 |
+| PL6 | IRQ5 |
+| PL7 | IRQ7 |
+
 
 ## How do I write firmware for it to access an ISA card?
 
