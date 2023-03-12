@@ -1088,6 +1088,41 @@
       (net 6 "unconnected-(XA1-PadSDA)") (pinfunction "SDA") (pintype "bidirectional+no_connect") (tstamp 736e8ed5-6f51-42e2-b5bb-e03a0dbe1a4a))
     (pad "VIN" thru_hole oval (at 45.72 -2.54) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask)
       (net 7 "+5V") (pinfunction "VIN") (pintype "power_in") (tstamp ce7b45b5-22ea-496b-b0ee-ca60458cb839))
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x18_P2.54mm_Vertical.step"
+      (offset (xyz 93.97 7.62 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Vertical.step"
+      (offset (xyz 18.79 50.8 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+      (offset (xyz 45.719 50.8 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+      (offset (xyz 68.58 50.8 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+      (offset (xyz 27.94 2.54 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+      (offset (xyz 50.81 2.54 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+      (offset (xyz 73.66 2.54 -1.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 90))
+    )
   )
 
   (footprint "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" (layer "F.Cu")
@@ -1424,6 +1459,16 @@
       (net 90 "/D7") (pinfunction "A2") (pintype "unspecified") (tstamp 265409d7-d869-40a9-840d-a58cf9c8d1bf))
     (pad "98" thru_hole circle locked (at -129.54 5.08) (size 1.651 1.651) (drill 1.143) (layers *.Cu *.Mask)
       (net 91 "/~{IO_CH_CHK}") (pinfunction "A1") (pintype "unspecified") (tstamp 4012a72b-024b-4b08-bd99-1c05d52026b5))
+    (model "${KIPRJMOD}/3dmodels/c-2-5530843-7-f-3d.stp"
+      (offset (xyz -21.59 -2.45 15.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model "${KIPRJMOD}/3dmodels/c-6-5530843-5-f-3d.stp"
+      (offset (xyz -91.44 -2.45 15.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Connector_JST:JST_VH_B6PS-VH_1x06_P3.96mm_Horizontal" (layer "F.Cu")
@@ -1539,8 +1584,8 @@
       (net 10 "GND") (pinfunction "Pin_5") (pintype "passive") (tstamp b6b1e2be-4da8-49c3-966e-4b3beabdf0d6))
     (pad "6" thru_hole circle (at 19.8 0 270) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask)
       (net 10 "GND") (pinfunction "Pin_6") (pintype "passive") (tstamp 45b6f57d-86f4-4245-a4d5-13c5a828076d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_VH_B6PS-VH_1x06_P3.96mm_Horizontal.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dmodels/B6PS-VH.stp"
+      (offset (xyz 9.9 0.02 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
