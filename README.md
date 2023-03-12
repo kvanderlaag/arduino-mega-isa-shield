@@ -2,6 +2,9 @@
  
  Diagnostic/Development shield for IBM PC XT/AT ISA cards.
  
+![Straight-on view of the board](arduino-mega-isa-shield.png)
+![Angled view of the board](arduino-mega-isa-shield-angle.png)
+ 
  ## God, now what?
  
  Okay, listen. Sometimes you're developing an ISA card, and you fuck it up. Sometimes you want to be able to give that card a set of known inputs for a bus state, and probe around on the card to see why it's not doing what you expect. If we're being honest, that's usually pretty hard when the card is installed in a machine! Arduinos are easy as hell to write simple firmware for, so this is a shield (in an extremely non-standard form factor, you won't be stacking anything on top of this) that breaks most of the useful ISA signals out to an ISA card slot. Pin assignment is set up so that things generally live on sequential port pins wherever possible, and all of the weird ports that you don't get all of the pins for are set up so that they're grouped by whether they're expected to be driven by the bus master, or the card. (i.e. whether you're going to be reading or writing them from the Arduino.) This _should_ allow for reasonably fast access to setting/reading bus state.
